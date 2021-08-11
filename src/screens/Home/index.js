@@ -1,20 +1,14 @@
 import React from 'react';
-import { Grid, makeStyles } from '@material-ui/core';
+import './styles.css';
 import HomeHeader from '../../components/HomeHeader';
+import HomeContent from '../../components/HomeContent';
 
-const useStyles = makeStyles({
-    container: {
-        background: 'rgba(119, 119, 66, 0.2)',
-        height: '100vh',
-        width: '100%'
-    }
-});
 const Home = () => {
-    const classes = useStyles();
     return (
-        <Grid item container xs={12} className={classes.container}>
+        <div className="container">
             <HomeHeader />
-        </Grid>
+            <HomeContent />
+        </div>
     );
 };
 

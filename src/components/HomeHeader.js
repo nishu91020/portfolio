@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, makeStyles, List, ListItem, ListItemText, Drawer } from '@material-ui/core';
+import { Grid, makeStyles, Drawer } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import ImageNishu from '../image/circle-cropped.png';
 import DrawerList from './DrawerList';
@@ -51,7 +51,6 @@ const HomeHeader = () => {
                     </Grid>
                 </Grid>
             </Grid>
-            <Grid />
         </React.Fragment>
     );
 };
