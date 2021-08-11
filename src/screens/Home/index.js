@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.css';
 import { Grid, makeStyles } from '@material-ui/core';
 import HomeHeader from '../../components/HomeHeader';
 

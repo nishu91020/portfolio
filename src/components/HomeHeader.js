@@ -37,7 +37,7 @@ const HomeHeader = () => {
                     Hello,<br /> I'm Nishu Rai, currently pursuing Bachelors of Engineering in Information technology from Army Institute of Technology, Pune. I have keen interest
                     in web development and competitive coding
                 </Grid>
-                <Grid container item xs={0} sm={0} md={6}>
+                <Grid container item xs={12} sm={12} md={6}>
                     <Grid container item direction="column" justifyContent="flex-end" alignItems="flex-end">
                         <MenuIcon fontSize="large" onClick={toggleDrawer(true)} />
                         <div>
