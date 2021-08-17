@@ -1,5 +1,6 @@
 import React from 'react';
 import { ListItem, List, ListItemText, makeStyles } from '@material-ui/core';
+import { useHistory } from 'react-router-dom';
 const useStyles = makeStyles({
     listContainer: {
         display: 'block'
@@ -7,14 +8,15 @@ const useStyles = makeStyles({
 });
 const DrawerList = () => {
     const classes = useStyles();
+    const history = useHistory();
     return (
         <div>
             <List className={classes.listContainer}>
                 <ListItem button>
-                    <ListItemText primary="Home" />
+                    <ListItemText primary="Home" onClick={() => history.push('/')} />
                 </ListItem>
                 <ListItem button>
-                    <ListItemText primary="Projects" />
+                    <ListItemText primary="Projects" onClick={() => history.push('/projects')} />
                 </ListItem>
                 <ListItem button>
                     <ListItemText primary="Achievements" />
