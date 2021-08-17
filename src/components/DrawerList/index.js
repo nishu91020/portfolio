@@ -1,9 +1,15 @@
 import React from 'react';
-import { ListItem, List, ListItemText } from '@material-ui/core';
+import { ListItem, List, ListItemText, makeStyles } from '@material-ui/core';
+const useStyles = makeStyles({
+    listContainer: {
+        display: 'block'
+    }
+});
 const DrawerList = () => {
+    const classes = useStyles();
     return (
         <div>
-            <List>
+            <List className={classes.listContainer}>
                 <ListItem button>
                     <ListItemText primary="Home" />
                 </ListItem>
