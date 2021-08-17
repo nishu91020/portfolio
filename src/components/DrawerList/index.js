@@ -22,7 +22,7 @@ const DrawerList = () => {
                     <ListItemText primary="Achievements" />
                 </ListItem>
                 <ListItem button>
-                    <ListItemText primary="Skills" />
+                    <ListItemText primary="Education &amp; Skills" onClick={() => history.push('/Skills')} />
                 </ListItem>
             </List>
         </div>
