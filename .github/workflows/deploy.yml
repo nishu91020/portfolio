@@ -17,7 +17,7 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: nishu91020/portfolio
+        uses: nishu91020/portfolio@v1
         with:
           branch: gh-pages
           folder: build # The folder the action should deploy.
