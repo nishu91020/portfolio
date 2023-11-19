@@ -20,4 +20,4 @@ jobs:
         uses: nishu91020/portfolio@v1
         with:
           branch: gh-pages 
-          folder: build 
+          folder: build # folder in which the compiled code is saved
