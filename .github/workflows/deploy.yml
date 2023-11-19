@@ -19,5 +19,5 @@ jobs:
       - name: Deploy 🚀
         uses: nishu91020/portfolio@v1
         with:
-          branch: gh-pages
+          branch: gh-pages # branch from where code will be deployed
           folder: build # The folder the action should deploy.
